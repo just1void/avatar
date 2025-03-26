@@ -19,7 +19,7 @@ body{
 .container{
     background-image: 
     linear-gradient(to right ,hsla(204, 100%, 5%, 0.5) 45% , rgba(0, 0, 0, 0.5)),
-    url('asstse/bg.jpg');
+    url('assets/bg.jpg');
 
     ;
     width: 90%;
@@ -31,7 +31,7 @@ body{
 .container:hover{
     background-image: 
     linear-gradient(to right ,hsla(204, 100%, 5%, 0.5) 40%, transparent),
-    url('asstse/bg.jpg');
+    url('assets/bg.jpg');
 
 
 }
