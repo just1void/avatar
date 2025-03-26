@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:wght@400;700&family=Ubuntu:ital@0;1&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+body{
+    background-image: linear-gradient(to right ,#000b13, #00223b);
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: 
+    linear-gradient(to right ,hsla(204, 100%, 5%, 0.5) 45% , rgba(0, 0, 0, 0.5)),
+    url('asstse/bg.jpg');
+
+    ;
+    width: 90%;
+    height:90%;
+    background-position: center;
+
+}
+
+.container:hover{
+    background-image: 
+    linear-gradient(to right ,hsla(204, 100%, 5%, 0.5) 40%, transparent),
+    url('asstse/bg.jpg');
+
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    width: 60%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+ul a{
+    border-bottom: white 5px transparent;
+}
+ul a:hover{
+    border-bottom: white 5px solid;
+}
+
+
+main{
+ 
+    margin-top: 50px;
+    padding: 20px;
+    width: 50%;
+}
+
+main h2{
+    font-size: 100px;
+    margin: 20px;
+
+    text-transform: uppercase;
+}
+
+main p{
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    margin: 20px;
+    width: 380px;
+}
